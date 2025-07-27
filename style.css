@@ -1,0 +1,16 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+#sidebar {
+  max-height: calc(100vh - 100px);
+  overflow-y: auto;
+}
+
+.form-check {
+  margin-bottom: 0.25rem;
+}
+
+#facilityTable_wrapper {
+  overflow-x: auto;
+}

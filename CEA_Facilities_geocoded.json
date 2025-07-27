@@ -1,0 +1,612 @@
+[
+  {
+    "Name of Facility": "Plenty",
+    "Facility Type": [
+      "Indoor Farming",
+      "Vertical Farming"
+    ],
+    "Crops": [
+      "Leafy Greens",
+      "Strawberries"
+    ],
+    "Contact Number": "(650) 735-3737",
+    "E-mail address": "hello@plenty.ag",
+    "Address": "570 Eccles Ave, South San Francisco, CA 94080",
+    "Website": "https://www.plenty.ag/",
+    "Latitude": 37.6614586,
+    "Longitude": -122.389765
+  },
+  {
+    "Name of Facility": "Gotham Greens",
+    "Facility Type": [
+      "Greenhouse"
+    ],
+    "Crops": [
+      "Leafy Greens"
+    ],
+    "Contact Number": "",
+    "E-mail address": "info@gothamgreens.com",
+    "Address": "9113 Olmo Ln, Davis, CA 95616",
+    "Website": "https://www.gothamgreens.com/our-farms/",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "Name of Facility": "Go Green Agriculture",
+    "Facility Type": [
+      "Greenhouse"
+    ],
+    "Crops": [
+      "Lettuce"
+    ],
+    "Contact Number": "(760) 634-2506",
+    "E-mail address": "hello@gogreenagriculture.com",
+    "Address": "2075 N Twin Oaks Valley Rd, San Marcos, CA 92069",
+    "Website": "https://www.gogreenagriculture.com/",
+    "Latitude": 33.1802149,
+    "Longitude": -117.1566545
+  },
+  {
+    "Name of Facility": "Rocket Farm",
+    "Facility Type": [
+      "Greenhouse"
+    ],
+    "Crops": [
+      "Leafy Greens"
+    ],
+    "Contact Number": "(800) 227-5229, (650) 726-6361",
+    "E-mail address": "info@rocketfarms.com",
+    "Address": "2651 Cabrillo Highway North, Half Moon Bay, CA 94019",
+    "Website": "https://www.rocketfarms.com",
+    "Latitude": 37.4758726,
+    "Longitude": -122.4389675
+  },
+  {
+    "Name of Facility": "Houuwelings",
+    "Facility Type": [
+      "Greenhouse"
+    ],
+    "Crops": [
+      "Tomatoes"
+    ],
+    "Contact Number": "(805) 250-1600",
+    "E-mail address": "info@houwelings.com",
+    "Address": "26313 Giraudo Road, Tehachapi, CA 93561",
+    "Website": "https://www.houwelings.com",
+    "Latitude": 35.1235061,
+    "Longitude": -118.5977893
+  },
+  {
+    "Name of Facility": "Local Bounti",
+    "Facility Type": [
+      "Greenhouse"
+    ],
+    "Crops": [
+      "Leafy Greens"
+    ],
+    "Contact Number": "800-640-4016",
+    "E-mail address": "hello@localbounti.com",
+    "Address": "1540 Santa Monica Rd, Carpinteria, CA 93013",
+    "Website": "https://www.localbounti.com",
+    "Latitude": 34.4104492,
+    "Longitude": -119.527724
+  },
+  {
+    "Name of Facility": "Taylor Farm",
+    "Facility Type": [
+      "Greenhouse"
+    ],
+    "Crops": [
+      "Leafy Greens"
+    ],
+    "Contact Number": "1 (877) 323-7374",
+    "E-mail address": "tyharris@taylorfarms.com",
+    "Address": "150 Main St, Salinas, CA 93901",
+    "Website": "https://www.taylorfarms.com",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "Name of Facility": "Fresh Farm Aquaponics",
+    "Facility Type": [
+      "Greenhouse",
+      "Aquaponic"
+    ],
+    "Crops": [
+      "Leafy Greens",
+      "Tomatoes",
+      "Strawberries"
+    ],
+    "Contact Number": "",
+    "E-mail address": "",
+    "Address": "10794 Gay Rd, Wilton, CA 95693",
+    "Website": "",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "Name of Facility": "Bluehouse Grown",
+    "Facility Type": [
+      "Greenhouse"
+    ],
+    "Crops": [
+      "Leafy Greens",
+      "Tomatoes",
+      "Cucumber"
+    ],
+    "Contact Number": "",
+    "E-mail address": "media@bluehousegreenhouse.com",
+    "Address": "9440 Santa Monica Boulevard Suite 301, Beverly Hills CA 90210",
+    "Website": "https://www.bluehousegreenhouse.com",
+    "Latitude": 34.0712866,
+    "Longitude": -118.4028281
+  },
+  {
+    "Name of Facility": "Hippo Harvest",
+    "Facility Type": [
+      "Greenhouse"
+    ],
+    "Crops": [
+      "Leafy Greens",
+      "Tomatoes",
+      "Cucumber"
+    ],
+    "Contact Number": "",
+    "E-mail address": "eitanme@gmail.com",
+    "Address": "3439 Cloverdale Rd, Pescadero, CA 94060",
+    "Website": "",
+    "Latitude": 37.2489199,
+    "Longitude": -122.368634
+  },
+  {
+    "Name of Facility": "Rainforest Flora",
+    "Facility Type": [
+      "Greenhouse"
+    ],
+    "Crops": [
+      "Ornamentals"
+    ],
+    "Contact Number": "(310) 370 8044",
+    "E-mail address": "JR@rainforestflora.com",
+    "Address": "19121 Hawthorne Blvd, Torrance, CA 90503",
+    "Website": "https://www.rainforestflora.com",
+    "Latitude": 33.8571744,
+    "Longitude": -118.353503
+  },
+  {
+    "Name of Facility": "California Greenhouses Inc.",
+    "Facility Type": [
+      "Greenhouse"
+    ],
+    "Crops": [
+      "Ornamentals"
+    ],
+    "Contact Number": "(949) 552-9619",
+    "E-mail address": "info@calgreenhouses.com",
+    "Address": "3350 1/2 Warner Avenue, Irvine, CA",
+    "Website": "https://www.calgreenhouses.com",
+    "Latitude": 33.6946934,
+    "Longitude": -117.8147209
+  },
+  {
+    "Name of Facility": "Malaia's Microgreens",
+    "Facility Type": [
+      "Indoor Farming",
+      "Vertical Farming"
+    ],
+    "Crops": [
+      "Microgreens"
+    ],
+    "Contact Number": "(949) 610 7575",
+    "E-mail address": "sales@malaiasmicrogreens.com",
+    "Address": "17971 Sky Park Cir E, Irvine, CA 92614",
+    "Website": "https://www.malaiasmicrogreens.com",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "Name of Facility": "Everde Growers",
+    "Facility Type": [
+      "Greenhouse"
+    ],
+    "Crops": [
+      "Ornamentals"
+    ],
+    "Contact Number": "800-542-0209",
+    "E-mail address": "info@everde.com",
+    "Address": "10500 Garfield Ave, Huntington Beach, CA 92646",
+    "Website": "https://www.everde.com",
+    "Latitude": 33.6853486,
+    "Longitude": -117.9431106
+  },
+  {
+    "Name of Facility": "California Greenhouses and OC Succulents",
+    "Facility Type": [
+      "Greenhouse"
+    ],
+    "Crops": [
+      "Ornamentals",
+      "House Plants"
+    ],
+    "Contact Number": "760943552",
+    "E-mail address": "jose@calgreenhouses.com",
+    "Address": "1753 Lake Dr, Cardiff, CA 92007",
+    "Website": "https://www.calgreenhouses.com",
+    "Latitude": 33.025928,
+    "Longitude": -117.266044
+  },
+  {
+    "Name of Facility": "Cordova Gardens",
+    "Facility Type": [
+      "Greenhouse"
+    ],
+    "Crops": [
+      "Ornamentals",
+      "House Plants"
+    ],
+    "Contact Number": "760-944-6984",
+    "E-mail address": "cordovagardens@sbcglobal.net",
+    "Address": "902 Encinitas Boulevard, Encinitas, CA 92024",
+    "Website": "https://www.cordovagardens.com/",
+    "Latitude": 33.047662,
+    "Longitude": -117.2718711
+  },
+  {
+    "Name of Facility": "Jungle Music Palms, Cycads and Tropical Plants",
+    "Facility Type": [
+      "Greenhouse"
+    ],
+    "Crops": [
+      "Ornamentals",
+      "House Plants"
+    ],
+    "Contact Number": "(619) 291- 4605",
+    "E-mail address": "phil.bergman@junglemusic.net",
+    "Address": "450 Ocean View Ave., Encinitas, CA 92024",
+    "Website": "https://www.junglemusic.net",
+    "Latitude": 33.056396,
+    "Longitude": -117.292876
+  },
+  {
+    "Name of Facility": "Cal Pacific Orchid Farm",
+    "Facility Type": [
+      "Greenhouse"
+    ],
+    "Crops": [
+      "Orchids"
+    ],
+    "Contact Number": "(760) 436-0317",
+    "E-mail address": "calpacificorchids@gmail.com",
+    "Address": "1122 Orpheus Ave, Encinitas, CA 92024",
+    "Website": "",
+    "Latitude": 33.069612,
+    "Longitude": -117.2944556
+  },
+  {
+    "Name of Facility": "J & S Greenhouses",
+    "Facility Type": [
+      "Greenhouse"
+    ],
+    "Crops": [
+      "Ornamentals",
+      "House Plants"
+    ],
+    "Contact Number": "(760) 688-5797",
+    "E-mail address": "Info@sjsgreenhouses.com",
+    "Address": "748 Requeza St, Encinitas, CA 92024",
+    "Website": "https://www.sjsgreenhouses.com",
+    "Latitude": 33.0437565,
+    "Longitude": -117.2756389
+  },
+  {
+    "Name of Facility": "Kartuz Greenhouses",
+    "Facility Type": [
+      "Greenhouse"
+    ],
+    "Crops": [
+      "Ornamentals"
+    ],
+    "Contact Number": "(760) 941 - 3613",
+    "E-mail address": "inquiry@kartuz.com",
+    "Address": "1408 Sunset Dr, Vista, CA 92081",
+    "Website": "https://www.kartuz.com",
+    "Latitude": 33.1779572,
+    "Longitude": -117.2570941
+  },
+  {
+    "Name of Facility": "Mueller's Greenhouses",
+    "Facility Type": [
+      "Greenhouse"
+    ],
+    "Crops": [
+      "Ornamentals"
+    ],
+    "Contact Number": "(760) 758-3970",
+    "E-mail address": "1ASMueller@gmail.com",
+    "Address": "1524 Sunset Dr, Vista, CA 92081",
+    "Website": "",
+    "Latitude": 33.179367,
+    "Longitude": -117.260965
+  },
+  {
+    "Name of Facility": "Kent's Bromeliad Nursery Inc",
+    "Facility Type": [
+      "Greenhouse"
+    ],
+    "Crops": [
+      "Bromeliad"
+    ],
+    "Contact Number": "(760) 758-2396",
+    "E-mail address": "ginger@kentsbromeliad.com",
+    "Address": "1266 Ridge Rd, Vista, CA 92081",
+    "Website": "https://www.kentsbromeliad.com",
+    "Latitude": 33.1800939,
+    "Longitude": -117.255123
+  },
+  {
+    "Name of Facility": "Olive Hill Greenhouses",
+    "Facility Type": [
+      "Greenhouse"
+    ],
+    "Crops": [
+      "House Plants"
+    ],
+    "Contact Number": "(760) 728-4596",
+    "E-mail address": "sales@olivehill.net",
+    "Address": "3508 Olive Hill Rd, Fallbrook, CA 92028",
+    "Website": "https://olivehill.net/",
+    "Latitude": 33.328373,
+    "Longitude": -117.24321
+  },
+  {
+    "Name of Facility": "Rote Greenhouses, Incorporated",
+    "Facility Type": [
+      "Greenhouse"
+    ],
+    "Crops": [
+      "Ornamentals",
+      "House Plants",
+      "Tropicals"
+    ],
+    "Contact Number": "(760) 744-1505",
+    "E-mail address": "rotegreenhouses@gmail.com",
+    "Address": "2138 Tamara Ln, San Marcos, CA 92069",
+    "Website": "https://flowerandplant.org/member-listing/user/76/",
+    "Latitude": 33.184004,
+    "Longitude": -117.171032
+  },
+  {
+    "Name of Facility": "Sorensen Greenhouses of Ca",
+    "Facility Type": [
+      "Greenhouse"
+    ],
+    "Crops": [
+      "Succulents"
+    ],
+    "Contact Number": "760-788-2400",
+    "E-mail address": "sorensengreenhouses@gmail.com",
+    "Address": "304 Haverford Rd, Ramona, CA 92065",
+    "Website": "",
+    "Latitude": 33.064867,
+    "Longitude": -116.859804
+  },
+  {
+    "Name of Facility": "Altman Plants",
+    "Facility Type": [
+      "Greenhouse"
+    ],
+    "Crops": [
+      "Ornamentals"
+    ],
+    "Contact Number": "(760) 725-4596",
+    "E-mail address": "Jhessler@altmanplants.com",
+    "Address": "15102 Lake Mathews Dr, Perris, CA 92570",
+    "Website": "https://www.altmanplants.com",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "Name of Facility": "Fresh Orgins",
+    "Facility Type": [
+      "Indoor Farming"
+    ],
+    "Crops": [
+      "Microgreens"
+    ],
+    "Contact Number": "(760) 736-4072",
+    "E-mail address": "charmaine.snider@freshorigins.com",
+    "Address": "570 Quarry Road, San Marcos, California 92069",
+    "Website": "https://www.freshorigins.com/",
+    "Latitude": 33.2054907,
+    "Longitude": -117.1690131
+  },
+  {
+    "Name of Facility": "Simple Seed Farm",
+    "Facility Type": [
+      "Indoor Farming"
+    ],
+    "Crops": [
+      "Microgreens"
+    ],
+    "Contact Number": "(714) 600-7013",
+    "E-mail address": "stann@simple-seed.com",
+    "Address": "9526 Mariposa Ave, Fountain Valley, CA 92708",
+    "Website": "https://www.simpleseedsfarms.com/",
+    "Latitude": 33.7180983,
+    "Longitude": -117.962773
+  },
+  {
+    "Name of Facility": "PureValley Hydroponic LLC",
+    "Facility Type": [
+      "Indoor Farming"
+    ],
+    "Crops": [
+      "Leafy Greens",
+      "Herbs",
+      "Microgreens"
+    ],
+    "Contact Number": "559-513-1671",
+    "E-mail address": "greens@purevalley.org",
+    "Address": "1077 N. Willow Ave. Ste. 105 PMB 12, Fresno, FRESNO, California",
+    "Website": "https://www.purevalley.org",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "Name of Facility": "Zestee Farm",
+    "Facility Type": [
+      "Indoor Farming",
+      "Vertical Farming"
+    ],
+    "Crops": [
+      "Leafy Greens",
+      "Microgreens"
+    ],
+    "Contact Number": "805.286.4340",
+    "E-mail address": "stan@zestefarms.com",
+    "Address": "580 Linne Rd. Suite 150, Paso Robles, California",
+    "Website": "https://www.zestefarms.com/",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "Name of Facility": "Plant Culture Systems",
+    "Facility Type": [
+      "Indoor Farming"
+    ],
+    "Crops": [
+      "Tomatoes",
+      "Lettuce",
+      "Herbs",
+      "Microgreens"
+    ],
+    "Contact Number": "(949) 418 3274",
+    "E-mail address": "sanjay@plantculturecorp.com",
+    "Address": "7601 Irvine Boulevard, Irvine, California 92618",
+    "Website": "https://www.plantculturecorp.com",
+    "Latitude": 33.6911471,
+    "Longitude": -117.720562
+  },
+  {
+    "Name of Facility": "Sarvodaya Institute Inc.",
+    "Facility Type": [
+      "Greenhouse"
+    ],
+    "Crops": [
+      "House Plants",
+      "Orchard Crops"
+    ],
+    "Contact Number": "909 660 3514",
+    "E-mail address": "rishi@sarvodayainstitute.org",
+    "Address": "1196 S San Antonio Ave, Pomona CA 91766",
+    "Website": "https://sarvodayainstitute.org/",
+    "Latitude": 34.0491552,
+    "Longitude": -117.7366081
+  },
+  {
+    "Name of Facility": "Grow Organic World",
+    "Facility Type": [
+      "Greenhouse",
+      "Hydroponic"
+    ],
+    "Crops": [
+      "Microgreens",
+      "Leafy Greens"
+    ],
+    "Contact Number": "(951)-401-0484",
+    "E-mail address": "reshmi@groworganicworld.com",
+    "Address": "36280 Liberty Rd,\u00a0Murrieta",
+    "Website": "https://www.groworganicworld.com",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "Name of Facility": "Weimar Farm Greenhouses",
+    "Facility Type": [
+      "Greenhouse"
+    ],
+    "Crops": [
+      "Leafy Greens"
+    ],
+    "Contact Number": "909-525-8854",
+    "E-mail address": "nealgnelson@gmail.com",
+    "Address": "20840 Adeline Dr, Colfax, CA 95713",
+    "Website": "",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "Name of Facility": "Planet Earth Observatory",
+    "Facility Type": [
+      "Greenhouse"
+    ],
+    "Crops": [
+      "Ornamentals",
+      "Leafy Greens"
+    ],
+    "Contact Number": "661-414-2862",
+    "E-mail address": "Lydia@planetearthobservatory.org",
+    "Address": "50 East Green St. #701, Pasadena, CA 91105",
+    "Website": "https://planetearthobservatory.org",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "Name of Facility": "Farm On 7th",
+    "Facility Type": [
+      "Greenhouse"
+    ],
+    "Crops": [
+      "Leafy Greens"
+    ],
+    "Contact Number": "(714) 745-7312",
+    "E-mail address": "farmon7th@gmail.com",
+    "Address": "587 7th Street, Norco, CA, United States, 92860",
+    "Website": "https://www.farmon7th.com",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "Name of Facility": "Huerta Del Valle",
+    "Facility Type": [
+      "Greenhouse"
+    ],
+    "Crops": [],
+    "Contact Number": "909-674-4513",
+    "E-mail address": "marketing@huertadelvalle.org",
+    "Address": "831 E Belmont St, Ontario, California, 91761,",
+    "Website": "https://www.huertadelvalle.org",
+    "Latitude": 34.0515702,
+    "Longitude": -117.6385433
+  },
+  {
+    "Name of Facility": "Cat City Cannabis Co",
+    "Facility Type": [
+      "Greenhouse"
+    ],
+    "Crops": [
+      "Cannabis"
+    ],
+    "Contact Number": "",
+    "E-mail address": "info@c4industry.com",
+    "Address": "69375 Ramon Rd Cathedral City, CA 92234",
+    "Website": "https://c4usa.com/",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "Name of Facility": "Archi's Acres",
+    "Facility Type": [
+      "Greenhouse"
+    ],
+    "Crops": [
+      "Leafy Greens"
+    ],
+    "Contact Number": "(760) 751-4380",
+    "E-mail address": "",
+    "Address": "10079 W Lilac Rd, Escondido, CA 92026",
+    "Website": "",
+    "Latitude": 33.27519,
+    "Longitude": -117.113335
+  }
+]
