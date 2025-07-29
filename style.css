@@ -2,8 +2,14 @@ body {
   font-family: 'Segoe UI', sans-serif;
 }
 
+#map {
+  height: calc(100vh/2);
+  margin-bottom: 1rem;
+}
+
+/* Scrollable sidebar, form-check spacing */
 #sidebar {
-  max-height: calc(100vh - 100px);
+  max-height: calc(100vh/2);
   overflow-y: auto;
 }
 
@@ -12,5 +18,79 @@ body {
 }
 
 #facilityTable_wrapper {
-  overflow-x: auto;
+  overflow-x: none;
+}
+
+/* Table borders: only horizontal lines */
+#facilityTable.table-bordered td,
+#facilityTable.table-bordered th {
+  border-left: none !important;
+  border-right: none !important;
+}
+
+#facilityTable.table-bordered {
+  border-top: 1px solid #dee2e6; /* top border */
+  border-bottom: 1px solid #dee2e6; /* bottom border */
+}
+
+#facilityTable.table-bordered thead tr th,
+#facilityTable.table-bordered tbody tr td {
+  border-top: 1px solid #dee2e6; /* horizontal borders between rows */
+}
+
+#facilityTable.table-bordered thead tr:first-child th {
+  border-top: none;
+}
+
+/* Dark mode for the whole page */
+body.dark-mode {
+  background-color: #121212 !important;
+  color: #e0e0e0 !important;
+}
+
+/* Dark mode elements */
+body.dark-mode .table,
+body.dark-mode .form-control,
+body.dark-mode .form-check-input,
+body.dark-mode .form-check-label,
+body.dark-mode .accordion-button,
+body.dark-mode .accordion-body,
+body.dark-mode .btn,
+body.dark-mode input,
+body.dark-mode select {
+  background-color: #1e1e1e !important;
+  color: #e0e0e0 !important;
+  border-color: #444 !important;
+}
+
+body.dark-mode input::placeholder {
+  color: #bbb !important;
+  opacity: 1;
+}
+
+body.dark-mode a {
+  color: #90caf9;
+}
+
+body.dark-mode #map {
+  filter: brightness(0.85);
+}
+
+/* Dark mode table styles */
+body.dark-mode #facilityTable.table-bordered {
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+
+body.dark-mode #facilityTable.table-bordered thead tr th,
+body.dark-mode #facilityTable.table-bordered tbody tr td {
+  border-top: 1px solid #ffffff;
+  color: #ffffff !important;
+  background-color: #121212 !important;
+}
+
+body.dark-mode #facilityTable.table-bordered td,
+body.dark-mode #facilityTable.table-bordered th {
+  border-left: none !important;
+  border-right: none !important;
 }

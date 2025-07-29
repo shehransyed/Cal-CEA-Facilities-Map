@@ -1,10 +1,12 @@
-let map = L.map('map').setView([36.7783, -119.4179], 6);
-let markerGroup = L.layerGroup().addTo(map);
+// Initialize Leaflet map centered on California
+const map = L.map('map').setView([36.7783, -119.4179], 6);
+const markerGroup = L.layerGroup().addTo(map);
+
 let facilityTable;
 let greenhouseData = [];
 const iconCache = {};
 
-// Map tile layers
+// Define map base layers
 const baseLayers = {
   "Map": L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; OpenStreetMap contributors'
@@ -18,24 +20,26 @@ const baseLayers = {
     attribution: 'Map data: &copy; OpenStreetMap contributors, SRTM | Map style: &copy; OpenTopoMap'
   })
 };
-
 L.control.layers(baseLayers).addTo(map);
 
+// Map facility types to icon filenames
 const facilityIconMap = {
   'Greenhouse': 'GH.png',
   'Indoor Farming': 'IF.png',
   'Vertical Farming': 'VF.png'
 };
 
+// Utility: Get array of checked checkbox values from a container
 function getCheckedValues(containerId) {
   return Array.from(document.querySelectorAll(`#${containerId} input:checked`)).map(cb => cb.value);
 }
 
+// Generate or reuse facility icon (single or combined icons)
 function getFacilityIcon(facilityTypes) {
   const key = facilityTypes.sort().join('-');
   if (iconCache[key]) return Promise.resolve(iconCache[key]);
 
-  const size = 64;
+  const size = 50;
   const canvas = document.createElement('canvas');
   canvas.width = size;
   canvas.height = size;
@@ -52,15 +56,27 @@ function getFacilityIcon(facilityTypes) {
 
   return Promise.all(loadImages).then(images => {
     const validImages = images.filter(img => img);
-    const angleStep = (2 * Math.PI) / validImages.length;
-    const radius = size / 2.5;
+    if (validImages.length === 1) {
+      // Single icon, draw full size centered
+      ctx.drawImage(validImages[0], 0, 0, size, size);
+    } else if (validImages.length > 1) {
+      // Multiple icons: draw smaller icons evenly spaced in a circle
+      const angleStep = (2 * Math.PI) / validImages.length;
+      const radius = size / 3;
 
-    validImages.forEach((img, index) => {
-      const angle = index * angleStep;
-      const x = size / 2 + radius * Math.cos(angle) - img.width / 2.5;
-      const y = size / 2 + radius * Math.sin(angle) - img.height / 2.5;
-      ctx.drawImage(img, x, y, size / 2, size / 2);
-    });
+      // Draw circle background for combined icon
+      ctx.fillStyle = '#fff';
+      ctx.beginPath();
+      ctx.arc(size / 2, size / 2, size / 2, 0, 2 * Math.PI);
+      ctx.fill();
+
+      validImages.forEach((img, i) => {
+        const angle = i * angleStep - Math.PI / 2; // start at top
+        const x = size / 2 + radius * Math.cos(angle) - 15; // 30x30 icon
+        const y = size / 2 + radius * Math.sin(angle) - 15;
+        ctx.drawImage(img, x, y, 30, 30);
+      });
+    }
 
     const icon = L.icon({
       iconUrl: canvas.toDataURL(),
@@ -74,6 +90,7 @@ function getFacilityIcon(facilityTypes) {
   });
 }
 
+// Populate facility type and crop filters dynamically
 function populateFilters() {
   const typeSet = new Set();
   const cropSet = new Set();
@@ -87,32 +104,42 @@ function populateFilters() {
 
   const typeContainer = document.getElementById('typeCheckboxes');
   const cropContainer = document.getElementById('cropCheckboxes');
+
   typeContainer.innerHTML = '';
   cropContainer.innerHTML = '';
 
-  for (let type of [...typeSet].sort()) {
+  // Facility type filter with icons
+  [...typeSet].sort().forEach(type => {
     const iconFile = facilityIconMap[type] || '';
-    const iconImg = iconFile ? `<img src="icons/${iconFile}" alt="${type}" style="height: 20px; vertical-align: middle; margin-right: 6px;">` : '';
-    const checkbox = `<div class="form-check">
-    <input class="form-check-input" type="checkbox" value="${type}" id="type-${type}">
-    <label class="form-check-label" for="type-${type}">${iconImg}${type}</label>
-  </div>`;
-    typeContainer.insertAdjacentHTML('beforeend', checkbox);
-  }
+    const iconImg = iconFile
+      ? `<img src="icons/${iconFile}" alt="${type}" style="height: 20px; vertical-align: middle; margin-right: 6px;">`
+      : '';
+    const checkboxHTML = `
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="${type}" id="type-${type}">
+        <label class="form-check-label" for="type-${type}">${iconImg}${type}</label>
+      </div>
+    `;
+    typeContainer.insertAdjacentHTML('beforeend', checkboxHTML);
+  });
 
+  // Crop type filter
+  [...cropSet].sort().forEach(crop => {
+    const checkboxHTML = `
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="${crop}" id="crop-${crop}">
+        <label class="form-check-label" for="crop-${crop}">${crop}</label>
+      </div>
+    `;
+    cropContainer.insertAdjacentHTML('beforeend', checkboxHTML);
+  });
 
-  for (let crop of [...cropSet].sort()) {
-    const checkbox = `<div class="form-check">
-      <input class="form-check-input" type="checkbox" value="${crop}" id="crop-${crop}">
-      <label class="form-check-label" for="crop-${crop}">${crop}</label>
-    </div>`;
-    cropContainer.insertAdjacentHTML('beforeend', checkbox);
-  }
-
-  document.getElementById('typeCheckboxes').addEventListener('change', updateView);
-  document.getElementById('cropCheckboxes').addEventListener('change', updateView);
+  // Event listeners for filter changes
+  typeContainer.addEventListener('change', updateView);
+  cropContainer.addEventListener('change', updateView);
 }
 
+// Initialize DataTable with columns and renderers
 function setupTable() {
   facilityTable = $('#facilityTable').DataTable({
     columns: [
@@ -133,16 +160,20 @@ function setupTable() {
     paging: false,
     info: false,
     searching: false,
-    lengthChange: false
+    lengthChange: false,
+    order: []
   });
 }
 
+// Main function: update markers and table based on filters and search
 async function updateView() {
   markerGroup.clearLayers();
+
   const selectedTypes = getCheckedValues('typeCheckboxes');
   const selectedCrops = getCheckedValues('cropCheckboxes');
   const searchText = document.getElementById('searchInput').value.toLowerCase().trim();
 
+  // Filter data by coordinates, filters, and search text (name, crops, address)
   const filtered = greenhouseData.filter(row => {
     if (!row['Latitude'] || !row['Longitude']) return false;
 
@@ -158,11 +189,12 @@ async function updateView() {
     return typeMatch && cropMatch && searchMatch;
   });
 
+  // Update DataTable with filtered data
   facilityTable.clear().rows.add(filtered).draw();
 
-  for (let facility of filtered) {
-    const lat = facility['Latitude'];
-    const lon = facility['Longitude'];
+  // Add markers for filtered facilities with popups
+  for (const facility of filtered) {
+    const { Latitude: lat, Longitude: lon } = facility;
 
     try {
       const icon = await getFacilityIcon(facility['Facility Type']);
@@ -185,6 +217,7 @@ async function updateView() {
   }
 }
 
+// Dark mode toggle and persistence
 document.getElementById('toggleDarkMode').addEventListener('click', () => {
   document.body.classList.toggle('dark-mode');
   const isDark = document.body.classList.contains('dark-mode');
@@ -192,39 +225,53 @@ document.getElementById('toggleDarkMode').addEventListener('click', () => {
   document.getElementById('toggleDarkMode').textContent = isDark ? '☀️' : '🌙';
 });
 
+// Initialization on DOM ready
 document.addEventListener('DOMContentLoaded', () => {
-  const saved = localStorage.getItem('dark-mode') === 'true';
-  if (saved) {
+  // Restore dark mode from localStorage
+  if (localStorage.getItem('dark-mode') === 'true') {
     document.body.classList.add('dark-mode');
     document.getElementById('toggleDarkMode').textContent = '☀️';
   }
 
+  // Load JSON data and initialize app
   fetch('CEA_Facilities_geocoded.json')
-    .then(response => response.json())
+    .then(resp => resp.json())
     .then(data => {
       greenhouseData = data;
+
       populateFilters();
       setupTable();
       updateView();
 
-      const nameList = greenhouseData.map(row => row["Name of Facility"] || '');
-      const cropList = greenhouseData.flatMap(row => row["Crops"] || []);
-      const addressList = greenhouseData.map(row => row["Address"] || '');
+      // Setup autocomplete search for name, crops, and address
+      const nameList = greenhouseData.map(r => r["Name of Facility"] || '');
+      const cropList = greenhouseData.flatMap(r => r["Crops"] || []);
+      const addressList = greenhouseData.map(r => r["Address"] || '');
 
-      const uniqueSuggestions = Array.from(new Set([
-        ...nameList,
-        ...cropList,
-        ...addressList
-      ])).filter(x => x && x.trim() !== '');
+      const uniqueSuggestions = Array.from(new Set([...nameList, ...cropList, ...addressList]))
+        .filter(x => x && x.trim() !== '')
+        .sort();
 
       $("#searchInput").autocomplete({
-        source: uniqueSuggestions.sort(),
+        source: uniqueSuggestions,
         minLength: 1,
-        select: function (event, ui) {
+        select: (event, ui) => {
           document.getElementById('searchInput').value = ui.item.value;
           updateView();
         }
       });
-      document.getElementById('searchInput').addEventListener('input', updateView);
+
+      // Update view as user types (clearing resets to all)
+      document.getElementById('searchInput').addEventListener('input', () => {
+        if (document.getElementById('searchInput').value.trim() === '') {
+          updateView();
+        } else {
+          updateView();
+        }
+      });
+    })
+    .catch(err => {
+      console.error("Failed to load facility data:", err);
+      alert("Error loading facility data.");
     });
 });
