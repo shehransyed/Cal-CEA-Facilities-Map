@@ -1,5 +1,8 @@
 // Initialize Leaflet map centered on California
-const map = L.map('map').setView([36.7783, -119.4179], 6);
+const map = L.map('map', {
+  zoomControl: false // disable default top-left zoom control
+}).setView([36.7783, -119.4179], 6);
+L.control.zoom({ position: 'topright' }).addTo(map);
 const markerGroup = L.layerGroup().addTo(map);
 
 let facilityTable;
@@ -36,7 +39,7 @@ function getCheckedValues(containerId) {
 
 // Generate or reuse facility icon (single or combined icons)
 function getFacilityIcon(facilityTypes) {
-  const key = facilityTypes.sort().join('-');
+  const key = facilityTypes.slice().sort().join('-');
   if (iconCache[key]) return Promise.resolve(iconCache[key]);
 
   const size = 50;
@@ -233,6 +236,16 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('toggleDarkMode').textContent = '☀️';
   }
 
+  // Add toggle for filter overlay
+  const filterOverlay = document.getElementById('filterOverlay');
+  const filterToggleBtn = document.getElementById('filterToggleBtn');
+
+  filterToggleBtn.addEventListener('click', () => {
+    const expanded = filterOverlay.classList.toggle('expanded');
+    filterToggleBtn.setAttribute('aria-expanded', expanded);
+    filterToggleBtn.textContent = expanded ? 'Filters ▲' : 'Filters ▼';
+  });
+
   // Load JSON data and initialize app
   fetch('CEA_Facilities_geocoded.json')
     .then(resp => resp.json())
@@ -263,12 +276,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
       // Update view as user types (clearing resets to all)
       document.getElementById('searchInput').addEventListener('input', () => {
-        if (document.getElementById('searchInput').value.trim() === '') {
-          updateView();
-        } else {
-          updateView();
-        }
+        updateView();
       });
+
+      // Prevent scroll on filter overlay from zooming the map
+      document.getElementById('filterOverlay').addEventListener('wheel', function (e) {
+        e.stopPropagation();
+      }, { passive: false });
+
     })
     .catch(err => {
       console.error("Failed to load facility data:", err);

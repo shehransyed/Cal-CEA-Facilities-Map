@@ -26,19 +26,23 @@
     <p class="text-center">
       This interactive map displays information about Controlled Environment Agriculture (CEA) facilities across
       California.<br>
-      Use the filters to explore facilities by type and crop, and click markers on the map for more details.<br>
-      <strong>If you are a grower or facility operator,</strong> you can <a
-        href="https://ucdavis.co1.qualtrics.com/jfe/form/SV_1BPehFYlYkiijjg" target="_blank">submit your facility
-        here</a> to be included on the map.<br>
-      This is a work-in-progress; more features and visual enhancements will be added. Stay tuned!
+      Use the filters to explore facilities by type and crop, and click markers on the map for more details.
     </p>
 
-    <!-- Submit Button -->
-    <div class="text-center mb-4">
-      <a href="https://ucdavis.co1.qualtrics.com/jfe/form/SV_1BPehFYlYkiijjg" target="_blank" class="btn btn-primary">
-        📬 Submit Your Facility
-      </a>
-    </div>
+    <!-- Submission + Correction Links -->
+    <p class="text-center">
+      <strong>If you are a grower or facility operator,</strong>
+      you can submit a request to add your facility to the map by clicking the "Add Facility" button:
+      <a href="https://ucdavis.co1.qualtrics.com/jfe/form/SV_1BPehFYlYkiijjg" target="_blank"
+        class="btn btn-sm btn-primary mx-2">Add Facility</a><br>
+      To correct or update an existing listing, please email
+      <a href="mailto:snsyed@ucdavis.edu">snsyed@ucdavis.edu</a>.
+    </p>
+
+    <!-- Work-in-progress notice -->
+    <p class="text-center">
+      This is a work-in-progress; more features and visual enhancements will be added. Stay tuned!
+    </p>
 
 
     <!-- Search Bar -->
@@ -49,20 +53,18 @@
       </div>
     </div>
 
-    <!-- Filters + Map -->
+    <!-- Map and Filter Overlay -->
     <div class="row">
-      <!-- Sidebar Filters -->
-      <div class="col-md-3 mb-4">
-        <div class="accordion" id="sidebar">
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="filtersHeader">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                data-bs-target="#filtersCollapse">
-                Filters
+      <div class="col-12">
+        <div id="mapWrapper">
+          <div id="map" class="rounded shadow-sm position-relative">
+            <!-- Filter Overlay -->
+            <div id="filterOverlay" class="filter-overlay expanded" aria-label="Filter Panel">
+              <button id="filterToggleBtn" class="btn btn-sm btn-outline-secondary filter-toggle-btn"
+                aria-expanded="true" aria-controls="filterContent" aria-label="Toggle Filters">
+                Filters ▲
               </button>
-            </h2>
-            <div id="filtersCollapse" class="accordion-collapse collapse show">
-              <div class="accordion-body bg-white rounded shadow-sm sticky-sidebar">
+              <div id="filterContent" class="filter-content">
                 <h5>Facility Type</h5>
                 <div id="typeCheckboxes" class="mb-3"></div>
                 <h5>Crops</h5>
@@ -71,11 +73,6 @@
             </div>
           </div>
         </div>
-      </div>
-
-      <!-- Map -->
-      <div class="col-md-9">
-        <div id="map" class="rounded shadow-sm"></div>
       </div>
     </div>
 

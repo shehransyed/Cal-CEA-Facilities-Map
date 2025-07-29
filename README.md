@@ -1,6 +1,6 @@
 # California CEA Facilities Map
 
-An interactive map showing Controlled Environment Agriculture facilities across California. Built with Leaflet.js, Bootstrap 5, and DataTables.
+An interactive map showing Controlled Environment Agriculture (CEA) facilities across California. Built with Leaflet.js, Bootstrap 5, and DataTables.
 
 ### Features
 - Interactive facility map with custom icons
@@ -8,6 +8,25 @@ An interactive map showing Controlled Environment Agriculture facilities across 
 - Filter by facility type and crops
 - Responsive, mobile-friendly design
 - Light/dark mode toggle
+- Submission form for growers to add facilities
+- Data table with facility details
 
 ### View it live:
 https://shehransyed.github.io/Cal-CEA-Facilities-Map/
+
+---
+
+### Changelog
+
+#### July 29, 2025
+- Moved facility filters from the sidebar into a **collapsible overlay** on the map.
+- Included contact info for corrections/updates.
+
+#### July 28, 2025
+- Improved **dark mode** styling across all components.
+- Added option to **Add Facility**.
+
+#### July 27, 2025
+- First publish.
+
+---

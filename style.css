@@ -2,24 +2,97 @@ body {
   font-family: 'Segoe UI', sans-serif;
 }
 
+/* Parent container to align filter and map height */
+#mapWrapper {
+  position: relative;
+  display: flex;
+  height: calc(100vh / 1.8);
+}
+
+/* Make map fill the wrapper */
 #map {
-  height: calc(100vh/2);
-  margin-bottom: 1rem;
+  flex: 1;
+  height: 100%;
+}
+
+/* Add spacing between zoom and layers controls */
+.leaflet-top.leaflet-right {
+  margin-top: 10px;
+}
+
+/* Spacing between controls */
+.leaflet-control-zoom,
+.leaflet-control-layers {
+  margin-bottom: 10px;
+}
+
+/* Floating filter overlay positioned on top of map */
+#filterOverlay {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  max-height: calc(100% - 40px); /* 20px margin top + 20px margin bottom */
+  overflow: hidden;
+  z-index: 1000;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  transition: max-height 0.3s ease;
+}
+
+/* Dark mode styling for overlay */
+body.dark-mode #filterOverlay {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+#filterOverlay.expanded {
+  max-height: calc(100% - 40px);
+  padding: 10px 15px 15px 15px;
+}
+
+#filterOverlay:not(.expanded) {
+  max-height: 45px;
+  /* only show toggle button */
+  padding: 5px 10px;
+}
+
+/* Toggle button inside overlay */
+.filter-toggle-btn {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+  user-select: none;
+  cursor: pointer;
+  padding: 6px 0;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+
+/* Dark mode toggle button style */
+body.dark-mode .filter-toggle-btn {
+  border-color: #444;
+  color: #e0e0e0;
+  background-color: #333;
+}
+
+.filter-content {
+  overflow-y: auto;
+  max-height: calc(100vh/1.8 - 100px);
+  /* scroll inside overlay if needed */
+  padding-right: 5px;
+}
+
+/* Ensure checkboxes and labels inside filter overlay look good */
+#filterOverlay .form-check {
+  margin-bottom: 0.4rem;
 }
 
 /* Scrollable sidebar, form-check spacing */
-#sidebar {
-  max-height: calc(100vh/2);
-  overflow-y: auto;
-}
-
-.form-check {
-  margin-bottom: 0.25rem;
-}
-
-#facilityTable_wrapper {
-  overflow-x: none;
-}
+/* removed old sidebar styles since sidebar is removed */
 
 /* Table borders: only horizontal lines */
 #facilityTable.table-bordered td,
@@ -29,13 +102,16 @@ body {
 }
 
 #facilityTable.table-bordered {
-  border-top: 1px solid #dee2e6; /* top border */
-  border-bottom: 1px solid #dee2e6; /* bottom border */
+  border-top: 1px solid #dee2e6;
+  /* top border */
+  border-bottom: 1px solid #dee2e6;
+  /* bottom border */
 }
 
 #facilityTable.table-bordered thead tr th,
 #facilityTable.table-bordered tbody tr td {
-  border-top: 1px solid #dee2e6; /* horizontal borders between rows */
+  border-top: 1px solid #dee2e6;
+  /* horizontal borders between rows */
 }
 
 #facilityTable.table-bordered thead tr:first-child th {
@@ -53,8 +129,6 @@ body.dark-mode .table,
 body.dark-mode .form-control,
 body.dark-mode .form-check-input,
 body.dark-mode .form-check-label,
-body.dark-mode .accordion-button,
-body.dark-mode .accordion-body,
 body.dark-mode .btn,
 body.dark-mode input,
 body.dark-mode select {
