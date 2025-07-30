@@ -18,6 +18,10 @@ https://shehransyed.github.io/Cal-CEA-Facilities-Map/
 
 ### Changelog
 
+#### July 30, 2025
+- Restricted maximum map zoom-out level to keep focus on California.
+- Added clear **California state boundary overlay**.
+
 #### July 29, 2025
 - Moved facility filters from the sidebar into a **collapsible overlay** on the map.
 - Included contact info for corrections/updates.

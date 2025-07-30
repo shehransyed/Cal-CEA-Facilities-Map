@@ -1,7 +1,16 @@
 // Initialize Leaflet map centered on California
 const map = L.map('map', {
+  center: [36.7783, -119.4179],
+  zoom: 6,
+  minZoom: 5,       // Optional: don't zoom in too close
+  maxZoom: 15,      // Optional: limit zoom in
+  maxBounds: [      // Optional: restrict pan to California-ish region
+    [32.0, -125.0],  // Southwest corner
+    [42.5, -113.5]   // Northeast corner
+  ],
   zoomControl: false // disable default top-left zoom control
-}).setView([36.7783, -119.4179], 6);
+});
+
 L.control.zoom({ position: 'topright' }).addTo(map);
 const markerGroup = L.layerGroup().addTo(map);
 
@@ -24,6 +33,21 @@ const baseLayers = {
   })
 };
 L.control.layers(baseLayers).addTo(map);
+
+// Add California border from GeoJSON
+fetch('california_border.geojson')
+  .then(resp => resp.json())
+  .then(geojson => {
+    L.geoJSON(geojson, {
+      style: {
+        color: '#000000ff', // Border color
+        weight: 2, // Thickness
+        opacity: 0.5,
+        fillOpacity: 0 // No fill
+      }
+    }).addTo(map);
+  })
+  .catch(err => console.error('Failed to load CA border GeoJSON:', err));
 
 // Map facility types to icon filenames
 const facilityIconMap = {
