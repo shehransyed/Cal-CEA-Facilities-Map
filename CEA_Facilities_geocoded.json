@@ -2,19 +2,18 @@
   {
     "Name of Facility": "Plenty",
     "Facility Type": [
-      "Indoor Farming",
-      "Vertical Farming"
+      "Greenhouse"
     ],
     "Crops": [
-      "Leafy Greens",
-      "Strawberries"
+      "Leafy Greens"
     ],
-    "Contact Number": "(650) 735-3737",
+    "Contact Number": "(279) 203-3024",
     "E-mail address": "hello@plenty.ag",
     "Address": "570 Eccles Ave, South San Francisco, CA 94080",
     "Website": "https://www.plenty.ag/",
-    "Latitude": 37.6614586,
-    "Longitude": -122.389765
+    "Latitude": 38.51429722,
+    "Longitude": -121.7786349,
+    "Description": "We are a fresh food company farming with the future in mind. We build and operate sustainable greenhouses across America, growing delicious leafy greens and herbs that are always in season. We deliver our greens quickly after being harvested so they\u2019re always fresh tasting, long-lasting and as nutritious as possible.\n\nOur farms are unconventional. But so is our commitment to taste, quality and sustainability."
   },
   {
     "Name of Facility": "Gotham Greens",
@@ -22,29 +21,33 @@
       "Greenhouse"
     ],
     "Crops": [
-      "Leafy Greens"
+      "Leafy Greens",
+      "Mushrooms"
     ],
-    "Contact Number": "",
+    "Contact Number": "(760) 634-2506",
     "E-mail address": "info@gothamgreens.com",
     "Address": "9113 Olmo Ln, Davis, CA 95616",
     "Website": "https://www.gothamgreens.com/our-farms/",
-    "Latitude": null,
-    "Longitude": null
+    "Latitude": 33.18013905,
+    "Longitude": -117.1557385,
+    "Description": "Why We Exist\nWe exist to make food safer, higher-quality, sustainable, and accessible to all.\n\nWhat We Do \nWe build and operate high-tech greenhouses with the purpose of providing local communities with fresh, sustainable leafy greens.\n\nOur Core Values\n1. We prioritize food safety, quality and then customers.\n2. We put the team's success above any individual\u2019s\n3. We don\u2019t accept good. We only accept great.\n\nWhat Makes Us Different\nWe unify our passion for building leaders with our passion for science and innovation. The result is a unique culture where we cultivate personal growth in order to push our team to create meaningful positive impact in the world around us.\n\nHow We Got Started\nWe were founded in 2009 in Pierre Jr.'s dorm room while studying computer science at UC Riverside. Inspired by his dad to become an entrepreneur and by a college professor conducting hydroponic research for NASA, Pierre became committed to reinventing agriculture here on earth. Pierre raised a little money from his parents, friends, and family to build a prototype farm while also taking on his Masters in Business from UC San Diego's Rady School of Management. In this environment, our young founder met investors who believed in his vision and invested in Go Green."
   },
   {
-    "Name of Facility": "Go Green Agriculture",
+    "Name of Facility": "Go Green Organic Farms",
     "Facility Type": [
-      "Greenhouse"
+      "Vertical Farming"
     ],
     "Crops": [
-      "Lettuce"
+      "Leafy Greens",
+      "Fruits"
     ],
-    "Contact Number": "(760) 634-2506",
+    "Contact Number": "6507353737",
     "E-mail address": "hello@gogreenagriculture.com",
     "Address": "2075 N Twin Oaks Valley Rd, San Marcos, CA 92069",
     "Website": "https://www.gogreenagriculture.com/",
-    "Latitude": 33.1802149,
-    "Longitude": -117.1566545
+    "Latitude": 37.661242,
+    "Longitude": -122.389081,
+    "Description": "Our planet is facing a changing climate and running out of farmable land just when we need it most. To feed a growing population, we need a whole new approach to farming. That\u2019s where Plenty\u00ae comes in.\n\nCompared to conventional farming, our Compton farm\u2026\n- Has the potential to save millions of gallons of water per year\n- Can produce up to 350x more leafy greens per acre\n- Can grow an entire soccer field worth of produce in the size of a goal\n\nBy growing vertically indoors, Plenty\u00ae is able to dramatically reduce the natural resources required to farm at a commercial scale while also making it possible to grow where we used to think it was impossible, like in the center of a city or the middle of the desert."
   },
   {
     "Name of Facility": "Rocket Farm",
@@ -54,27 +57,32 @@
     "Crops": [
       "Leafy Greens"
     ],
-    "Contact Number": "(800) 227-5229, (650) 726-6361",
+    "Contact Number": "(650) 726-6361",
     "E-mail address": "info@rocketfarms.com",
     "Address": "2651 Cabrillo Highway North, Half Moon Bay, CA 94019",
     "Website": "https://www.rocketfarms.com",
-    "Latitude": 37.4758726,
-    "Longitude": -122.4389675
+    "Latitude": 37.48865661,
+    "Longitude": -122.4490425,
+    "Description": "As one of the nation\u2019s leading innovators in horticulture, Rocket Farms stands at the forefront of quality and sustainability. Our commitment to excellence and environmental stewardship has established us as a major player in the industry, boasting some of the largest and most advanced cultivation facilities. From blooming to culinary herbs, we are committed to growing a brighter future."
   },
   {
-    "Name of Facility": "Houuwelings",
+    "Name of Facility": "Houweling's",
     "Facility Type": [
       "Greenhouse"
     ],
     "Crops": [
-      "Tomatoes"
+      "Leafy Greens",
+      "Herbs",
+      "Vegetables",
+      "Fruits"
     ],
     "Contact Number": "(805) 250-1600",
     "E-mail address": "info@houwelings.com",
     "Address": "26313 Giraudo Road, Tehachapi, CA 93561",
     "Website": "https://www.houwelings.com",
-    "Latitude": 35.1235061,
-    "Longitude": -118.5977893
+    "Latitude": 35.12387253,
+    "Longitude": -118.5982213,
+    "Description": "Houweling\u2019s Tomatoes is a world-renowned greenhouse tomato grower with facilities in Delta, BC. Founded by Cornelius Houweling and now led by his son Casey, Houweling\u2019s is dedicated to delivering a full complement of scrumptious tomatoes and cucumbers, while constantly innovating to reduce its environmental footprint."
   },
   {
     "Name of Facility": "Local Bounti",
@@ -82,14 +90,16 @@
       "Greenhouse"
     ],
     "Crops": [
-      "Leafy Greens"
+      "Leafy Greens",
+      "Herbs"
     ],
     "Contact Number": "800-640-4016",
     "E-mail address": "hello@localbounti.com",
     "Address": "1540 Santa Monica Rd, Carpinteria, CA 93013",
     "Website": "https://www.localbounti.com",
-    "Latitude": 34.4104492,
-    "Longitude": -119.527724
+    "Latitude": 34.41080336,
+    "Longitude": -119.5281177,
+    "Description": "Located just 30 minutes apart, our Carpinteria and Oxnard facilities have been production powerhouses since 1970, supplying fresh, living greens nationwide for decades. While both locations focus on living greens, our Oxnard facility is renowned for producing our highly sought-after organic varieties."
   },
   {
     "Name of Facility": "Taylor Farm",
@@ -99,12 +109,13 @@
     "Crops": [
       "Leafy Greens"
     ],
-    "Contact Number": "1 (877) 323-7374",
+    "Contact Number": "(877) 323-7374",
     "E-mail address": "tyharris@taylorfarms.com",
     "Address": "150 Main St, Salinas, CA 93901",
     "Website": "https://www.taylorfarms.com",
-    "Latitude": null,
-    "Longitude": null
+    "Latitude": 36.67622706,
+    "Longitude": -121.6560299,
+    "Description": "Our story began in the Salinas Valley, affectionately called America\u2019s Salad Bowl. It was here, where Bruce Taylor followed in the footsteps of his father and grandfather and became the third generation to work in the fresh produce business.\n\nIn 1995, Bruce and several partners founded Taylor Fresh Foods. A new company with a new vision was born \u2013 to be North America\u2019s favorite maker of salads and healthy fresh foods."
   },
   {
     "Name of Facility": "Fresh Farm Aquaponics",
@@ -114,15 +125,15 @@
     ],
     "Crops": [
       "Leafy Greens",
-      "Tomatoes",
-      "Strawberries"
+      "Fruits"
     ],
     "Contact Number": "",
     "E-mail address": "",
     "Address": "10794 Gay Rd, Wilton, CA 95693",
     "Website": "",
     "Latitude": null,
-    "Longitude": null
+    "Longitude": null,
+    "Description": ""
   },
   {
     "Name of Facility": "Bluehouse Grown",
@@ -131,15 +142,16 @@
     ],
     "Crops": [
       "Leafy Greens",
-      "Tomatoes",
-      "Cucumber"
+      "Fruits",
+      "Vegetables"
     ],
     "Contact Number": "",
     "E-mail address": "media@bluehousegreenhouse.com",
     "Address": "9440 Santa Monica Boulevard Suite 301, Beverly Hills CA 90210",
     "Website": "https://www.bluehousegreenhouse.com",
     "Latitude": 34.0712866,
-    "Longitude": -118.4028281
+    "Longitude": -118.4028281,
+    "Description": ""
   },
   {
     "Name of Facility": "Hippo Harvest",
@@ -148,15 +160,16 @@
     ],
     "Crops": [
       "Leafy Greens",
-      "Tomatoes",
-      "Cucumber"
+      "Fruits",
+      "Vegetables"
     ],
     "Contact Number": "",
     "E-mail address": "eitanme@gmail.com",
     "Address": "3439 Cloverdale Rd, Pescadero, CA 94060",
     "Website": "",
     "Latitude": 37.2489199,
-    "Longitude": -122.368634
+    "Longitude": -122.368634,
+    "Description": ""
   },
   {
     "Name of Facility": "Rainforest Flora",
@@ -171,7 +184,8 @@
     "Address": "19121 Hawthorne Blvd, Torrance, CA 90503",
     "Website": "https://www.rainforestflora.com",
     "Latitude": 33.8571744,
-    "Longitude": -118.353503
+    "Longitude": -118.353503,
+    "Description": ""
   },
   {
     "Name of Facility": "California Greenhouses Inc.",
@@ -186,12 +200,12 @@
     "Address": "3350 1/2 Warner Avenue, Irvine, CA",
     "Website": "https://www.calgreenhouses.com",
     "Latitude": 33.6946934,
-    "Longitude": -117.8147209
+    "Longitude": -117.8147209,
+    "Description": ""
   },
   {
     "Name of Facility": "Malaia's Microgreens",
     "Facility Type": [
-      "Indoor Farming",
       "Vertical Farming"
     ],
     "Crops": [
@@ -202,7 +216,8 @@
     "Address": "17971 Sky Park Cir E, Irvine, CA 92614",
     "Website": "https://www.malaiasmicrogreens.com",
     "Latitude": null,
-    "Longitude": null
+    "Longitude": null,
+    "Description": ""
   },
   {
     "Name of Facility": "Everde Growers",
@@ -217,7 +232,8 @@
     "Address": "10500 Garfield Ave, Huntington Beach, CA 92646",
     "Website": "https://www.everde.com",
     "Latitude": 33.6853486,
-    "Longitude": -117.9431106
+    "Longitude": -117.9431106,
+    "Description": ""
   },
   {
     "Name of Facility": "California Greenhouses and OC Succulents",
@@ -233,7 +249,8 @@
     "Address": "1753 Lake Dr, Cardiff, CA 92007",
     "Website": "https://www.calgreenhouses.com",
     "Latitude": 33.025928,
-    "Longitude": -117.266044
+    "Longitude": -117.266044,
+    "Description": ""
   },
   {
     "Name of Facility": "Cordova Gardens",
@@ -249,7 +266,8 @@
     "Address": "902 Encinitas Boulevard, Encinitas, CA 92024",
     "Website": "https://www.cordovagardens.com/",
     "Latitude": 33.047662,
-    "Longitude": -117.2718711
+    "Longitude": -117.2718711,
+    "Description": ""
   },
   {
     "Name of Facility": "Jungle Music Palms, Cycads and Tropical Plants",
@@ -265,7 +283,8 @@
     "Address": "450 Ocean View Ave., Encinitas, CA 92024",
     "Website": "https://www.junglemusic.net",
     "Latitude": 33.056396,
-    "Longitude": -117.292876
+    "Longitude": -117.292876,
+    "Description": ""
   },
   {
     "Name of Facility": "Cal Pacific Orchid Farm",
@@ -273,14 +292,15 @@
       "Greenhouse"
     ],
     "Crops": [
-      "Orchids"
+      "Ornamentals"
     ],
     "Contact Number": "(760) 436-0317",
     "E-mail address": "calpacificorchids@gmail.com",
     "Address": "1122 Orpheus Ave, Encinitas, CA 92024",
     "Website": "",
     "Latitude": 33.069612,
-    "Longitude": -117.2944556
+    "Longitude": -117.2944556,
+    "Description": ""
   },
   {
     "Name of Facility": "J & S Greenhouses",
@@ -296,7 +316,8 @@
     "Address": "748 Requeza St, Encinitas, CA 92024",
     "Website": "https://www.sjsgreenhouses.com",
     "Latitude": 33.0437565,
-    "Longitude": -117.2756389
+    "Longitude": -117.2756389,
+    "Description": ""
   },
   {
     "Name of Facility": "Kartuz Greenhouses",
@@ -311,7 +332,8 @@
     "Address": "1408 Sunset Dr, Vista, CA 92081",
     "Website": "https://www.kartuz.com",
     "Latitude": 33.1779572,
-    "Longitude": -117.2570941
+    "Longitude": -117.2570941,
+    "Description": ""
   },
   {
     "Name of Facility": "Mueller's Greenhouses",
@@ -326,7 +348,8 @@
     "Address": "1524 Sunset Dr, Vista, CA 92081",
     "Website": "",
     "Latitude": 33.179367,
-    "Longitude": -117.260965
+    "Longitude": -117.260965,
+    "Description": ""
   },
   {
     "Name of Facility": "Kent's Bromeliad Nursery Inc",
@@ -334,14 +357,15 @@
       "Greenhouse"
     ],
     "Crops": [
-      "Bromeliad"
+      "Ornamentals"
     ],
     "Contact Number": "(760) 758-2396",
     "E-mail address": "ginger@kentsbromeliad.com",
     "Address": "1266 Ridge Rd, Vista, CA 92081",
     "Website": "https://www.kentsbromeliad.com",
     "Latitude": 33.1800939,
-    "Longitude": -117.255123
+    "Longitude": -117.255123,
+    "Description": ""
   },
   {
     "Name of Facility": "Olive Hill Greenhouses",
@@ -356,7 +380,8 @@
     "Address": "3508 Olive Hill Rd, Fallbrook, CA 92028",
     "Website": "https://olivehill.net/",
     "Latitude": 33.328373,
-    "Longitude": -117.24321
+    "Longitude": -117.24321,
+    "Description": ""
   },
   {
     "Name of Facility": "Rote Greenhouses, Incorporated",
@@ -365,15 +390,15 @@
     ],
     "Crops": [
       "Ornamentals",
-      "House Plants",
-      "Tropicals"
+      "House Plants"
     ],
     "Contact Number": "(760) 744-1505",
     "E-mail address": "rotegreenhouses@gmail.com",
     "Address": "2138 Tamara Ln, San Marcos, CA 92069",
     "Website": "https://flowerandplant.org/member-listing/user/76/",
     "Latitude": 33.184004,
-    "Longitude": -117.171032
+    "Longitude": -117.171032,
+    "Description": ""
   },
   {
     "Name of Facility": "Sorensen Greenhouses of Ca",
@@ -388,7 +413,8 @@
     "Address": "304 Haverford Rd, Ramona, CA 92065",
     "Website": "",
     "Latitude": 33.064867,
-    "Longitude": -116.859804
+    "Longitude": -116.859804,
+    "Description": ""
   },
   {
     "Name of Facility": "Altman Plants",
@@ -403,12 +429,13 @@
     "Address": "15102 Lake Mathews Dr, Perris, CA 92570",
     "Website": "https://www.altmanplants.com",
     "Latitude": null,
-    "Longitude": null
+    "Longitude": null,
+    "Description": ""
   },
   {
     "Name of Facility": "Fresh Orgins",
     "Facility Type": [
-      "Indoor Farming"
+      "Vertical Farming"
     ],
     "Crops": [
       "Microgreens"
@@ -418,12 +445,13 @@
     "Address": "570 Quarry Road, San Marcos, California 92069",
     "Website": "https://www.freshorigins.com/",
     "Latitude": 33.2054907,
-    "Longitude": -117.1690131
+    "Longitude": -117.1690131,
+    "Description": ""
   },
   {
     "Name of Facility": "Simple Seed Farm",
     "Facility Type": [
-      "Indoor Farming"
+      "Vertical Farming"
     ],
     "Crops": [
       "Microgreens"
@@ -433,12 +461,13 @@
     "Address": "9526 Mariposa Ave, Fountain Valley, CA 92708",
     "Website": "https://www.simpleseedsfarms.com/",
     "Latitude": 33.7180983,
-    "Longitude": -117.962773
+    "Longitude": -117.962773,
+    "Description": ""
   },
   {
     "Name of Facility": "PureValley Hydroponic LLC",
     "Facility Type": [
-      "Indoor Farming"
+      "Vertical Farming"
     ],
     "Crops": [
       "Leafy Greens",
@@ -450,12 +479,12 @@
     "Address": "1077 N. Willow Ave. Ste. 105 PMB 12, Fresno, FRESNO, California",
     "Website": "https://www.purevalley.org",
     "Latitude": null,
-    "Longitude": null
+    "Longitude": null,
+    "Description": ""
   },
   {
     "Name of Facility": "Zestee Farm",
     "Facility Type": [
-      "Indoor Farming",
       "Vertical Farming"
     ],
     "Crops": [
@@ -467,25 +496,27 @@
     "Address": "580 Linne Rd. Suite 150, Paso Robles, California",
     "Website": "https://www.zestefarms.com/",
     "Latitude": null,
-    "Longitude": null
+    "Longitude": null,
+    "Description": ""
   },
   {
     "Name of Facility": "Plant Culture Systems",
     "Facility Type": [
-      "Indoor Farming"
+      "Vertical Farming"
     ],
     "Crops": [
-      "Tomatoes",
-      "Lettuce",
+      "Leafy Greens",
       "Herbs",
-      "Microgreens"
+      "Microgreens",
+      "Fruits"
     ],
     "Contact Number": "(949) 418 3274",
     "E-mail address": "sanjay@plantculturecorp.com",
     "Address": "7601 Irvine Boulevard, Irvine, California 92618",
     "Website": "https://www.plantculturecorp.com",
     "Latitude": 33.6911471,
-    "Longitude": -117.720562
+    "Longitude": -117.720562,
+    "Description": ""
   },
   {
     "Name of Facility": "Sarvodaya Institute Inc.",
@@ -493,15 +524,15 @@
       "Greenhouse"
     ],
     "Crops": [
-      "House Plants",
-      "Orchard Crops"
+      "House Plants"
     ],
     "Contact Number": "909 660 3514",
     "E-mail address": "rishi@sarvodayainstitute.org",
     "Address": "1196 S San Antonio Ave, Pomona CA 91766",
     "Website": "https://sarvodayainstitute.org/",
     "Latitude": 34.0491552,
-    "Longitude": -117.7366081
+    "Longitude": -117.7366081,
+    "Description": ""
   },
   {
     "Name of Facility": "Grow Organic World",
@@ -518,7 +549,8 @@
     "Address": "36280 Liberty Rd,\u00a0Murrieta",
     "Website": "https://www.groworganicworld.com",
     "Latitude": null,
-    "Longitude": null
+    "Longitude": null,
+    "Description": ""
   },
   {
     "Name of Facility": "Weimar Farm Greenhouses",
@@ -533,7 +565,8 @@
     "Address": "20840 Adeline Dr, Colfax, CA 95713",
     "Website": "",
     "Latitude": null,
-    "Longitude": null
+    "Longitude": null,
+    "Description": ""
   },
   {
     "Name of Facility": "Planet Earth Observatory",
@@ -549,7 +582,8 @@
     "Address": "50 East Green St. #701, Pasadena, CA 91105",
     "Website": "https://planetearthobservatory.org",
     "Latitude": null,
-    "Longitude": null
+    "Longitude": null,
+    "Description": ""
   },
   {
     "Name of Facility": "Farm On 7th",
@@ -564,7 +598,8 @@
     "Address": "587 7th Street, Norco, CA, United States, 92860",
     "Website": "https://www.farmon7th.com",
     "Latitude": null,
-    "Longitude": null
+    "Longitude": null,
+    "Description": ""
   },
   {
     "Name of Facility": "Huerta Del Valle",
@@ -577,7 +612,8 @@
     "Address": "831 E Belmont St, Ontario, California, 91761,",
     "Website": "https://www.huertadelvalle.org",
     "Latitude": 34.0515702,
-    "Longitude": -117.6385433
+    "Longitude": -117.6385433,
+    "Description": ""
   },
   {
     "Name of Facility": "Cat City Cannabis Co",
@@ -591,8 +627,9 @@
     "E-mail address": "info@c4industry.com",
     "Address": "69375 Ramon Rd Cathedral City, CA 92234",
     "Website": "https://c4usa.com/",
-    "Latitude": null,
-    "Longitude": null
+    "Latitude": 33.81560202,
+    "Longitude": -116.4532427,
+    "Description": ""
   },
   {
     "Name of Facility": "Archi's Acres",
@@ -607,6 +644,7 @@
     "Address": "10079 W Lilac Rd, Escondido, CA 92026",
     "Website": "",
     "Latitude": 33.27519,
-    "Longitude": -117.113335
+    "Longitude": -117.113335,
+    "Description": ""
   }
 ]

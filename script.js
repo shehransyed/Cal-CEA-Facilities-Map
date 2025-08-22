@@ -187,7 +187,7 @@ function setupTable() {
       {
         data: 'Website',
         render: url => url ? `<a href="${url}" target="_blank">${url}</a>` : ''
-      }
+      },
     ],
     paging: false,
     info: false,
@@ -239,7 +239,8 @@ async function updateView() {
         <b>Contact:</b> ${facility['Contact Number'] || 'N/A'}<br>
         <b>E-mail:</b> ${facility['E-mail address'] || 'N/A'}<br>
         <b>Address:</b> ${facility['Address'] || 'N/A'}<br>
-        <b>Website:</b> ${facility['Website'] ? `<a href="${facility['Website']}" target="_blank">${facility['Website']}</a>` : 'N/A'}
+        <b>Website:</b> ${facility['Website'] ? `<a href="${facility['Website']}" target="_blank">${facility['Website']}</a>` : 'N/A'}<br>
+        <b>Description:</b> ${facility['Description'] || 'N/A'}
       `;
 
       marker.bindPopup(popupContent);
