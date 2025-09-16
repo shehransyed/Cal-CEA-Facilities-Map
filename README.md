@@ -18,6 +18,10 @@ https://shehransyed.github.io/Cal-CEA-Facilities-Map/
 
 ### Changelog
 
+#### September 16, 2025
+- Added icon for **High Tunnel** facilities.
+- Updated dataset with additional facilities and minor corrections.
+
 #### July 31, 2025
 - Updated **Satellite** layer to use Esri World Imagery.
 - Added reference layer for borders and location labels in Satellite view.
