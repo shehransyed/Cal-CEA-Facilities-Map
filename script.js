@@ -57,7 +57,7 @@ fetch('california_border.geojson')
 // Map facility types to icon filenames
 const facilityIconMap = {
   'Greenhouse': 'GH.png',
-  'Indoor Farming': 'IF.png',
+  'High Tunnel': 'HT.png',
   'Vertical Farming': 'VF.png'
 };
 

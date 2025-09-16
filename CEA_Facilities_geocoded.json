@@ -2,21 +2,38 @@
   {
     "Name of Facility": "Plenty",
     "Facility Type": [
+      "Vertical Farming"
+    ],
+    "Crops": [
+      "Leafy Greens",
+      "Fruits / Vegetables"
+    ],
+    "Contact Number": "6507353737",
+    "E-mail address": "hello@plenty.ag",
+    "Address": "570 Eccles Ave, South San Francisco, CA 94080, USA",
+    "Website": "https://www.plenty.ag/",
+    "Latitude": 37.661242,
+    "Longitude": -122.389081,
+    "Description": "Our planet is facing a changing climate and running out of farmable land just when we need it most. To feed a growing population, we need a whole new approach to farming. That\u2019s where Plenty\u00ae comes in.\n\nCompared to conventional farming, our Compton farm\u2026\n- Has the potential to save millions of gallons of water per year\n- Can produce up to 350x more leafy greens per acre\n- Can grow an entire soccer field worth of produce in the size of a goal\n\nBy growing vertically indoors, Plenty\u00ae is able to dramatically reduce the natural resources required to farm at a commercial scale while also making it possible to grow where we used to think it was impossible, like in the center of a city or the middle of the desert."
+  },
+  {
+    "Name of Facility": "Gotham Greens",
+    "Facility Type": [
       "Greenhouse"
     ],
     "Crops": [
       "Leafy Greens"
     ],
     "Contact Number": "(279) 203-3024",
-    "E-mail address": "hello@plenty.ag",
-    "Address": "570 Eccles Ave, South San Francisco, CA 94080",
-    "Website": "https://www.plenty.ag/",
+    "E-mail address": "info@gothamgreens.com",
+    "Address": "9113 Olmo Lane, Davis, CA, USA",
+    "Website": "https://www.gothamgreens.com/our-farms/",
     "Latitude": 38.51429722,
     "Longitude": -121.7786349,
     "Description": "We are a fresh food company farming with the future in mind. We build and operate sustainable greenhouses across America, growing delicious leafy greens and herbs that are always in season. We deliver our greens quickly after being harvested so they\u2019re always fresh tasting, long-lasting and as nutritious as possible.\n\nOur farms are unconventional. But so is our commitment to taste, quality and sustainability."
   },
   {
-    "Name of Facility": "Gotham Greens",
+    "Name of Facility": "Go Green Organic Farms",
     "Facility Type": [
       "Greenhouse"
     ],
@@ -25,29 +42,12 @@
       "Mushrooms"
     ],
     "Contact Number": "(760) 634-2506",
-    "E-mail address": "info@gothamgreens.com",
-    "Address": "9113 Olmo Ln, Davis, CA 95616",
-    "Website": "https://www.gothamgreens.com/our-farms/",
+    "E-mail address": "hello@gogreenagriculture.com",
+    "Address": "2075 N Twin Oaks Valley Rd, San Marcos, CA 92069, USA",
+    "Website": "https://www.gogreenagriculture.com/",
     "Latitude": 33.18013905,
     "Longitude": -117.1557385,
     "Description": "Why We Exist\nWe exist to make food safer, higher-quality, sustainable, and accessible to all.\n\nWhat We Do \nWe build and operate high-tech greenhouses with the purpose of providing local communities with fresh, sustainable leafy greens.\n\nOur Core Values\n1. We prioritize food safety, quality and then customers.\n2. We put the team's success above any individual\u2019s\n3. We don\u2019t accept good. We only accept great.\n\nWhat Makes Us Different\nWe unify our passion for building leaders with our passion for science and innovation. The result is a unique culture where we cultivate personal growth in order to push our team to create meaningful positive impact in the world around us.\n\nHow We Got Started\nWe were founded in 2009 in Pierre Jr.'s dorm room while studying computer science at UC Riverside. Inspired by his dad to become an entrepreneur and by a college professor conducting hydroponic research for NASA, Pierre became committed to reinventing agriculture here on earth. Pierre raised a little money from his parents, friends, and family to build a prototype farm while also taking on his Masters in Business from UC San Diego's Rady School of Management. In this environment, our young founder met investors who believed in his vision and invested in Go Green."
-  },
-  {
-    "Name of Facility": "Go Green Organic Farms",
-    "Facility Type": [
-      "Vertical Farming"
-    ],
-    "Crops": [
-      "Leafy Greens",
-      "Fruits"
-    ],
-    "Contact Number": "6507353737",
-    "E-mail address": "hello@gogreenagriculture.com",
-    "Address": "2075 N Twin Oaks Valley Rd, San Marcos, CA 92069",
-    "Website": "https://www.gogreenagriculture.com/",
-    "Latitude": 37.661242,
-    "Longitude": -122.389081,
-    "Description": "Our planet is facing a changing climate and running out of farmable land just when we need it most. To feed a growing population, we need a whole new approach to farming. That\u2019s where Plenty\u00ae comes in.\n\nCompared to conventional farming, our Compton farm\u2026\n- Has the potential to save millions of gallons of water per year\n- Can produce up to 350x more leafy greens per acre\n- Can grow an entire soccer field worth of produce in the size of a goal\n\nBy growing vertically indoors, Plenty\u00ae is able to dramatically reduce the natural resources required to farm at a commercial scale while also making it possible to grow where we used to think it was impossible, like in the center of a city or the middle of the desert."
   },
   {
     "Name of Facility": "Rocket Farm",
@@ -59,7 +59,7 @@
     ],
     "Contact Number": "(650) 726-6361",
     "E-mail address": "info@rocketfarms.com",
-    "Address": "2651 Cabrillo Highway North, Half Moon Bay, CA 94019",
+    "Address": "2651 Cabrillo Highway North, Half Moon Bay, CA 94019, USA",
     "Website": "https://www.rocketfarms.com",
     "Latitude": 37.48865661,
     "Longitude": -122.4490425,
@@ -72,13 +72,12 @@
     ],
     "Crops": [
       "Leafy Greens",
-      "Herbs",
-      "Vegetables",
-      "Fruits"
+      "Microgreens / Herbs",
+      "Fruits / Vegetables"
     ],
     "Contact Number": "(805) 250-1600",
     "E-mail address": "info@houwelings.com",
-    "Address": "26313 Giraudo Road, Tehachapi, CA 93561",
+    "Address": "26313 Giraudo Road, Tehachapi, CA 93561, USA",
     "Website": "https://www.houwelings.com",
     "Latitude": 35.12387253,
     "Longitude": -118.5982213,
@@ -91,7 +90,7 @@
     ],
     "Crops": [
       "Leafy Greens",
-      "Herbs"
+      "Microgreens / Herbs"
     ],
     "Contact Number": "800-640-4016",
     "E-mail address": "hello@localbounti.com",
@@ -102,7 +101,7 @@
     "Description": "Located just 30 minutes apart, our Carpinteria and Oxnard facilities have been production powerhouses since 1970, supplying fresh, living greens nationwide for decades. While both locations focus on living greens, our Oxnard facility is renowned for producing our highly sought-after organic varieties."
   },
   {
-    "Name of Facility": "Taylor Farm",
+    "Name of Facility": "Taylor Farms",
     "Facility Type": [
       "Greenhouse"
     ],
@@ -111,7 +110,7 @@
     ],
     "Contact Number": "(877) 323-7374",
     "E-mail address": "tyharris@taylorfarms.com",
-    "Address": "150 Main St, Salinas, CA 93901",
+    "Address": "150 Main St, Salinas, CA 93901, USA",
     "Website": "https://www.taylorfarms.com",
     "Latitude": 36.67622706,
     "Longitude": -121.6560299,
@@ -120,30 +119,28 @@
   {
     "Name of Facility": "Fresh Farm Aquaponics",
     "Facility Type": [
-      "Greenhouse",
-      "Aquaponic"
+      "Greenhouse"
     ],
     "Crops": [
       "Leafy Greens",
-      "Fruits"
+      "Fruits / Vegetables"
     ],
     "Contact Number": "",
     "E-mail address": "",
     "Address": "10794 Gay Rd, Wilton, CA 95693",
     "Website": "",
-    "Latitude": null,
-    "Longitude": null,
+    "Latitude": 38.39990506,
+    "Longitude": -121.28299,
     "Description": ""
   },
   {
-    "Name of Facility": "Bluehouse Grown",
+    "Name of Facility": "Bluehouse Greenhouse",
     "Facility Type": [
       "Greenhouse"
     ],
     "Crops": [
       "Leafy Greens",
-      "Fruits",
-      "Vegetables"
+      "Fruits / Vegetables"
     ],
     "Contact Number": "",
     "E-mail address": "media@bluehousegreenhouse.com",
@@ -160,8 +157,7 @@
     ],
     "Crops": [
       "Leafy Greens",
-      "Fruits",
-      "Vegetables"
+      "Fruits / Vegetables"
     ],
     "Contact Number": "",
     "E-mail address": "eitanme@gmail.com",
@@ -177,7 +173,7 @@
       "Greenhouse"
     ],
     "Crops": [
-      "Ornamentals"
+      "Ornamentals / Houseplants"
     ],
     "Contact Number": "(310) 370 8044",
     "E-mail address": "JR@rainforestflora.com",
@@ -185,7 +181,7 @@
     "Website": "https://www.rainforestflora.com",
     "Latitude": 33.8571744,
     "Longitude": -118.353503,
-    "Description": ""
+    "Description": "Bring the rainforest home.\nOur mission is to grow plants that bring joy to our customers. We have airplants for sale, tropical outdoor plants, staghorn ferns, and many other houseplants and outdoor plants for sale online and at our showroom."
   },
   {
     "Name of Facility": "California Greenhouses Inc.",
@@ -193,7 +189,7 @@
       "Greenhouse"
     ],
     "Crops": [
-      "Ornamentals"
+      "Ornamentals / Houseplants"
     ],
     "Contact Number": "(949) 552-9619",
     "E-mail address": "info@calgreenhouses.com",
@@ -201,7 +197,7 @@
     "Website": "https://www.calgreenhouses.com",
     "Latitude": 33.6946934,
     "Longitude": -117.8147209,
-    "Description": ""
+    "Description": "The story of California Greenhouses began when Mark and Carol Stansbury started selling interior foliage plants out of their small van in the spring of 1973. The Stansburys would load their van full of plants purchased from a greenhouse in Pico Rivera and then peddle them throughout Orange and San Diego counties to retail nurseries.\n\nThe first nursery opened by the Stansburys was in Santa Ana Heights, California in 1980. Two years later they opened their doors at a new location in Cardiff, San Diego. The first nursery has since outgrown its original location and has moved a number of times, settling, for the past 20 years, in beautiful Irvine.  Our San Diego location has remained in the same location for over 30 years.\n\nThe complete operation now consists of over 165,000 s/f of greenhouses in four locations and is incorporated as California Greenhouses. Since 1980 their primary focus has been to present the professional interiorscape industry with the finest plants, containers, and accessories available. We have learned over the years that interiorscapers have a strong vision and are truly creating living works of art. Our job is to help facilitate the artist in anyway possible."
   },
   {
     "Name of Facility": "Malaia's Microgreens",
@@ -209,15 +205,15 @@
       "Vertical Farming"
     ],
     "Crops": [
-      "Microgreens"
+      "Microgreens / Herbs"
     ],
     "Contact Number": "(949) 610 7575",
     "E-mail address": "sales@malaiasmicrogreens.com",
     "Address": "17971 Sky Park Cir E, Irvine, CA 92614",
     "Website": "https://www.malaiasmicrogreens.com",
-    "Latitude": null,
-    "Longitude": null,
-    "Description": ""
+    "Latitude": 33.68900204,
+    "Longitude": -117.8618672,
+    "Description": "Malaia's Microgreens first began it's story in the Shed.\n\nLeaky roof. Uneven floors. Somehow too hot AND too cold.\n\nNevertheless, this was where we first earned our Farmer's Certificate and the home to our very first crops."
   },
   {
     "Name of Facility": "Everde Growers",
@@ -225,7 +221,7 @@
       "Greenhouse"
     ],
     "Crops": [
-      "Ornamentals"
+      "Ornamentals / Houseplants"
     ],
     "Contact Number": "800-542-0209",
     "E-mail address": "info@everde.com",
@@ -233,7 +229,7 @@
     "Website": "https://www.everde.com",
     "Latitude": 33.6853486,
     "Longitude": -117.9431106,
-    "Description": ""
+    "Description": "Everde Growers is a leader within the horticulture industry with a true coast-to-coast footprint consisting of over 6,700 acres in production encompassing 15 farm locations throughout Texas, Florida, California, and Oregon. Our superior growing methods and pruning practices ensure consistent high quality and availability. Our inventory mix includes trees, shrubs, perennials, palms, grasses, succulents, tropicals, fruit, and many other items."
   },
   {
     "Name of Facility": "California Greenhouses and OC Succulents",
@@ -241,8 +237,7 @@
       "Greenhouse"
     ],
     "Crops": [
-      "Ornamentals",
-      "House Plants"
+      "Ornamentals / Houseplants"
     ],
     "Contact Number": "760943552",
     "E-mail address": "jose@calgreenhouses.com",
@@ -258,8 +253,7 @@
       "Greenhouse"
     ],
     "Crops": [
-      "Ornamentals",
-      "House Plants"
+      "Ornamentals / Houseplants"
     ],
     "Contact Number": "760-944-6984",
     "E-mail address": "cordovagardens@sbcglobal.net",
@@ -267,7 +261,7 @@
     "Website": "https://www.cordovagardens.com/",
     "Latitude": 33.047662,
     "Longitude": -117.2718711,
-    "Description": ""
+    "Description": "Cordova Gardens is an Encinitas, North County,  family owned and operated, retail and delivery garden center, boasting 2 beautiful acres of colorful, healthy plant nursery grounds. Our garden and nursery center specializes in outdoor tropical plants, drought tolerant succulents, pottery, fountains, statuary, birdbaths, tables benches, and more; we maintain the largest inventory of plants and garden art in North County, San Diego."
   },
   {
     "Name of Facility": "Jungle Music Palms, Cycads and Tropical Plants",
@@ -275,8 +269,7 @@
       "Greenhouse"
     ],
     "Crops": [
-      "Ornamentals",
-      "House Plants"
+      "Ornamentals / Houseplants"
     ],
     "Contact Number": "(619) 291- 4605",
     "E-mail address": "phil.bergman@junglemusic.net",
@@ -284,7 +277,7 @@
     "Website": "https://www.junglemusic.net",
     "Latitude": 33.056396,
     "Longitude": -117.292876,
-    "Description": ""
+    "Description": "Jungle Music is a family owned palm tree, cycad and tropical plant nursery established in 1977 to provide the most rare and beautiful plants anywhere!  Our Nursery location is off Freeway 5 in Encinitas, CA, north of San Diego."
   },
   {
     "Name of Facility": "Cal Pacific Orchid Farm",
@@ -292,7 +285,7 @@
       "Greenhouse"
     ],
     "Crops": [
-      "Ornamentals"
+      "Ornamentals / Houseplants"
     ],
     "Contact Number": "(760) 436-0317",
     "E-mail address": "calpacificorchids@gmail.com",
@@ -308,16 +301,15 @@
       "Greenhouse"
     ],
     "Crops": [
-      "Ornamentals",
-      "House Plants"
+      "Ornamentals / Houseplants"
     ],
     "Contact Number": "(760) 688-5797",
     "E-mail address": "Info@sjsgreenhouses.com",
     "Address": "748 Requeza St, Encinitas, CA 92024",
-    "Website": "https://www.sjsgreenhouses.com",
+    "Website": "https://www.jsgreenhouses.com",
     "Latitude": 33.0437565,
     "Longitude": -117.2756389,
-    "Description": ""
+    "Description": "Jim Stakey Greenhouses is a family wholesale business selling only the highest quality plants grown in our facility. We partner with premier suppliers in the industry to enhance quality and performance of our plants. We offer a wide range of unique selections from rooted cuttings to baby seedlings,  Our availability includes bedding plants, herbs, mono & multi-culture planters, baskets and pots."
   },
   {
     "Name of Facility": "Kartuz Greenhouses",
@@ -325,7 +317,7 @@
       "Greenhouse"
     ],
     "Crops": [
-      "Ornamentals"
+      "Ornamentals / Houseplants"
     ],
     "Contact Number": "(760) 941 - 3613",
     "E-mail address": "inquiry@kartuz.com",
@@ -333,7 +325,7 @@
     "Website": "https://www.kartuz.com",
     "Latitude": 33.1779572,
     "Longitude": -117.2570941,
-    "Description": ""
+    "Description": "For over 60 years, Kartuz Greenhouses has been offering distinctive varieties of rare and exotic plants. Begonias, gesneriads, hoyas and passionflowers comprise our key specialties. Among the many listings in these plant families are promising new introductions and excellent miniature varieties. In addition to our own hybrids, we also list the finest new varieties from other leading hybridizers."
   },
   {
     "Name of Facility": "Mueller's Greenhouses",
@@ -341,7 +333,7 @@
       "Greenhouse"
     ],
     "Crops": [
-      "Ornamentals"
+      "Ornamentals / Houseplants"
     ],
     "Contact Number": "(760) 758-3970",
     "E-mail address": "1ASMueller@gmail.com",
@@ -357,7 +349,7 @@
       "Greenhouse"
     ],
     "Crops": [
-      "Ornamentals"
+      "Ornamentals / Houseplants"
     ],
     "Contact Number": "(760) 758-2396",
     "E-mail address": "ginger@kentsbromeliad.com",
@@ -373,7 +365,7 @@
       "Greenhouse"
     ],
     "Crops": [
-      "House Plants"
+      "Ornamentals / Houseplants"
     ],
     "Contact Number": "(760) 728-4596",
     "E-mail address": "sales@olivehill.net",
@@ -381,7 +373,7 @@
     "Website": "https://olivehill.net/",
     "Latitude": 33.328373,
     "Longitude": -117.24321,
-    "Description": ""
+    "Description": "For 50 years, Olive Hill Greenhouses has provided exceptional quality plants for homes, offices and indoor landscapes.\r\n\r\nWe specialize in Anthuriums, Bromeliads and tropical foliage."
   },
   {
     "Name of Facility": "Rote Greenhouses, Incorporated",
@@ -389,8 +381,7 @@
       "Greenhouse"
     ],
     "Crops": [
-      "Ornamentals",
-      "House Plants"
+      "Ornamentals / Houseplants"
     ],
     "Contact Number": "(760) 744-1505",
     "E-mail address": "rotegreenhouses@gmail.com",
@@ -398,7 +389,7 @@
     "Website": "https://flowerandplant.org/member-listing/user/76/",
     "Latitude": 33.184004,
     "Longitude": -117.171032,
-    "Description": ""
+    "Description": "Rote Greenhouses is a grower of quality tropical foliage."
   },
   {
     "Name of Facility": "Sorensen Greenhouses of Ca",
@@ -406,7 +397,7 @@
       "Greenhouse"
     ],
     "Crops": [
-      "Succulents"
+      "Ornamentals / Houseplants"
     ],
     "Contact Number": "760-788-2400",
     "E-mail address": "sorensengreenhouses@gmail.com",
@@ -422,15 +413,15 @@
       "Greenhouse"
     ],
     "Crops": [
-      "Ornamentals"
+      "Ornamentals / Houseplants"
     ],
     "Contact Number": "(760) 725-4596",
     "E-mail address": "Jhessler@altmanplants.com",
     "Address": "15102 Lake Mathews Dr, Perris, CA 92570",
     "Website": "https://www.altmanplants.com",
-    "Latitude": null,
-    "Longitude": null,
-    "Description": ""
+    "Latitude": 33.7974391,
+    "Longitude": -117.3859993,
+    "Description": "It started as a hobby, a passion for plants, in a Los Angeles backyard in 1975. Today, we\u2019re the largest commercial grower in the United States, and that same passion for plants guides everything we do."
   },
   {
     "Name of Facility": "Fresh Orgins",
@@ -438,7 +429,7 @@
       "Vertical Farming"
     ],
     "Crops": [
-      "Microgreens"
+      "Microgreens / Herbs"
     ],
     "Contact Number": "(760) 736-4072",
     "E-mail address": "charmaine.snider@freshorigins.com",
@@ -446,7 +437,7 @@
     "Website": "https://www.freshorigins.com/",
     "Latitude": 33.2054907,
     "Longitude": -117.1690131,
-    "Description": ""
+    "Description": "The largest grower and supplier of over 500 microgreens,\r\nedible flowers & specialty items in the USA."
   },
   {
     "Name of Facility": "Simple Seed Farm",
@@ -454,7 +445,7 @@
       "Vertical Farming"
     ],
     "Crops": [
-      "Microgreens"
+      "Microgreens / Herbs"
     ],
     "Contact Number": "(714) 600-7013",
     "E-mail address": "stann@simple-seed.com",
@@ -462,7 +453,7 @@
     "Website": "https://www.simpleseedsfarms.com/",
     "Latitude": 33.7180983,
     "Longitude": -117.962773,
-    "Description": ""
+    "Description": "Simple Seed Farms was established in 2019, operating out of a garage in the heart of Fountain Valley, California. We specialize in indoor hydroponic technology that helps farmers simplify their farm operations across Orange County. As a farm, we supply the freshest microgreens to over 60 local businesses. \r\n\r\nToday, we are based in our own warehouse in Stanton, CA. We are building a team of amazing farmers with a wide variety of skill sets. We hope to continue pursuing our mission through dedication and teamwork. "
   },
   {
     "Name of Facility": "PureValley Hydroponic LLC",
@@ -471,8 +462,7 @@
     ],
     "Crops": [
       "Leafy Greens",
-      "Herbs",
-      "Microgreens"
+      "Microgreens / Herbs"
     ],
     "Contact Number": "559-513-1671",
     "E-mail address": "greens@purevalley.org",
@@ -489,15 +479,15 @@
     ],
     "Crops": [
       "Leafy Greens",
-      "Microgreens"
+      "Microgreens / Herbs"
     ],
     "Contact Number": "805.286.4340",
     "E-mail address": "stan@zestefarms.com",
     "Address": "580 Linne Rd. Suite 150, Paso Robles, California",
     "Website": "https://www.zestefarms.com/",
-    "Latitude": null,
-    "Longitude": null,
-    "Description": ""
+    "Latitude": 35.61229264,
+    "Longitude": -120.6446899,
+    "Description": "At Zeste Farms\u2122, we\u2019re on a mission to change the world with our indoor growing system. Our name, Zeste, represents our promise for fresh, flavorful, and nutritious living greens. \r\n\r\nFor over 10 years, we\u2019ve been growing and selling over 14 leafy greens and 6 herbs to chefs, grocers, and consumers along the California 101 corridor. Now, we\u2019re evolving with a highly efficient and scalable indoor vertical farming concept that eliminates the green premium. "
   },
   {
     "Name of Facility": "Plant Culture Systems",
@@ -506,17 +496,16 @@
     ],
     "Crops": [
       "Leafy Greens",
-      "Herbs",
-      "Microgreens",
-      "Fruits"
+      "Microgreens / Herbs",
+      "Fruits / Vegetables"
     ],
     "Contact Number": "(949) 418 3274",
     "E-mail address": "sanjay@plantculturecorp.com",
     "Address": "7601 Irvine Boulevard, Irvine, California 92618",
-    "Website": "https://www.plantculturecorp.com",
+    "Website": "https://www.plantculturesystems.com/",
     "Latitude": 33.6911471,
     "Longitude": -117.720562,
-    "Description": ""
+    "Description": "Plant Culture Systems team has over 70 combined years of knowledge in Agricultural Technology in soilless culture controlled environment agriculture plant culture systems across over 300 crops, internet of things sensing, and artificial intelligence."
   },
   {
     "Name of Facility": "Sarvodaya Institute Inc.",
@@ -524,7 +513,7 @@
       "Greenhouse"
     ],
     "Crops": [
-      "House Plants"
+      "Ornamentals / Houseplants"
     ],
     "Contact Number": "909 660 3514",
     "E-mail address": "rishi@sarvodayainstitute.org",
@@ -532,25 +521,24 @@
     "Website": "https://sarvodayainstitute.org/",
     "Latitude": 34.0491552,
     "Longitude": -117.7366081,
-    "Description": ""
+    "Description": "Sarvodaya Institute works and operates on unceded and occupied Tongva land (also known as Pomona, CA).  We acknowledge and offer our deepest thanks to the Tongva people for the centuries of care and love they offered to this beautiful land we now call home. Our greatest hope is to learn from our indigenous family and return to the beautiful relationship between people and land we all deserve."
   },
   {
     "Name of Facility": "Grow Organic World",
     "Facility Type": [
-      "Greenhouse",
-      "Hydroponic"
+      "Greenhouse"
     ],
     "Crops": [
-      "Microgreens",
+      "Microgreens / Herbs",
       "Leafy Greens"
     ],
     "Contact Number": "(951)-401-0484",
     "E-mail address": "reshmi@groworganicworld.com",
-    "Address": "36280 Liberty Rd,\u00a0Murrieta",
+    "Address": "36280 Liberty Rd, Murrieta, CA 92563",
     "Website": "https://www.groworganicworld.com",
-    "Latitude": null,
-    "Longitude": null,
-    "Description": ""
+    "Latitude": 33.59407985,
+    "Longitude": -117.1357846,
+    "Description": "Empowering Farming Growth\r\nwith Sustainable, Affordable Hydroponics"
   },
   {
     "Name of Facility": "Weimar Farm Greenhouses",
@@ -564,8 +552,8 @@
     "E-mail address": "nealgnelson@gmail.com",
     "Address": "20840 Adeline Dr, Colfax, CA 95713",
     "Website": "",
-    "Latitude": null,
-    "Longitude": null,
+    "Latitude": 39.04108371,
+    "Longitude": -120.9770222,
     "Description": ""
   },
   {
@@ -574,15 +562,15 @@
       "Greenhouse"
     ],
     "Crops": [
-      "Ornamentals",
+      "Ornamentals / Houseplants",
       "Leafy Greens"
     ],
     "Contact Number": "661-414-2862",
     "E-mail address": "Lydia@planetearthobservatory.org",
     "Address": "50 East Green St. #701, Pasadena, CA 91105",
     "Website": "https://planetearthobservatory.org",
-    "Latitude": null,
-    "Longitude": null,
+    "Latitude": 34.14440588,
+    "Longitude": -118.1497425,
     "Description": ""
   },
   {
@@ -597,23 +585,26 @@
     "E-mail address": "farmon7th@gmail.com",
     "Address": "587 7th Street, Norco, CA, United States, 92860",
     "Website": "https://www.farmon7th.com",
-    "Latitude": null,
-    "Longitude": null,
-    "Description": ""
+    "Latitude": 33.94594092,
+    "Longitude": -117.5343845,
+    "Description": "We are a microfarm/market garden in the city of Norco, California.\r\n\r\nOur primary goal is to educate the public while providing a large selection of healthy, low-cost fruit and vegetable plants at the correct time of year for home food production. And we also sell great tasting lettuce (heads and salad mix)! "
   },
   {
     "Name of Facility": "Huerta Del Valle",
     "Facility Type": [
       "Greenhouse"
     ],
-    "Crops": [],
+    "Crops": [
+      "Fruits / Vegetables",
+      "Microgreens / Herbs"
+    ],
     "Contact Number": "909-674-4513",
     "E-mail address": "marketing@huertadelvalle.org",
     "Address": "831 E Belmont St, Ontario, California, 91761,",
     "Website": "https://www.huertadelvalle.org",
     "Latitude": 34.0515702,
     "Longitude": -117.6385433,
-    "Description": ""
+    "Description": "Huerta del Valle is a nonprofit grassroots organization serving the Inland Empire region of Southern California, a network of urban farms and community gardens working for an equitable food system to provide healthy organic produce for all."
   },
   {
     "Name of Facility": "Cat City Cannabis Co",
@@ -629,7 +620,7 @@
     "Website": "https://c4usa.com/",
     "Latitude": 33.81560202,
     "Longitude": -116.4532427,
-    "Description": ""
+    "Description": "Premium AAA Cannabis For The Recreational Market\r\nThe Cat City Cannabis Campus was planned in two phases and has been designed to comply with cGMP standards.\r\n\r\nPhase One includes 247,000 sqft of canopy with 78,000 sqft of header house and breezeway for a total of 325,000 sqft. We are able to produce 111,000 pounds per year of dry cannabis at capacity, with an additional 22,000 pounds per year of associated trim.\r\n\r\nPhase Two will increase our facility by 168,000 sqft and increase production by approximately 50,000 pounds per year of dry cannabis and approximately 11,000 pounds per year of associated trim."
   },
   {
     "Name of Facility": "Archi's Acres",
@@ -646,5 +637,53 @@
     "Latitude": 33.27519,
     "Longitude": -117.113335,
     "Description": ""
+  },
+  {
+    "Name of Facility": "Plan Berries",
+    "Facility Type": [
+      "High Tunnel"
+    ],
+    "Crops": [
+      "Fruits / Vegetables"
+    ],
+    "Contact Number": "",
+    "E-mail address": "",
+    "Address": "2255 S Broadway, Santa Maria, CA 93454",
+    "Website": "http://www.plan-berries.com/",
+    "Latitude": 34.91946812,
+    "Longitude": -120.4363843,
+    "Description": "Producer of strawberries intended to transform the way strawberries are grown and marketed. The company uses technology in farming enabling customers to obtain flavored strawberries at an affordable price."
+  },
+  {
+    "Name of Facility": "Beyond Bok Choy Farm",
+    "Facility Type": [
+      "High Tunnel"
+    ],
+    "Crops": [
+      "Leafy Greens"
+    ],
+    "Contact Number": "(559) 960-0995",
+    "E-mail address": "",
+    "Address": "6527 E Montecito Ave, Fresno, CA 93727",
+    "Website": "",
+    "Latitude": 36.73475889,
+    "Longitude": -119.672242,
+    "Description": "Producer of bockchoy in 2 acres of high tunnels."
+  },
+  {
+    "Name of Facility": "Revol Greens",
+    "Facility Type": [
+      "Greenhouse"
+    ],
+    "Crops": [
+      "Leafy Greens"
+    ],
+    "Contact Number": "8337386500",
+    "E-mail address": "",
+    "Address": "20570 Pellisier Rd, Tehachapi, CA 93561",
+    "Website": "https://www.revolgreens.com/",
+    "Latitude": 35.11699496,
+    "Longitude": -118.5999613,
+    "Description": "Revol Greens has Midwestern roots.  \r\n\r\nIn 2017, we opened our first greenhouse in Minnesota, a place known for its cold, snowy winters, where the thought of producing fresh produce year-round seemed impossible. The magic of a greenhouse, though, is that we can grow delicious lettuce and greens 365 days per year. Anywhere.    \r\n\r\nWe have expanded our network to include three additional greenhouses in California, Georgia and Texas. \r\n\r\nWith an experienced growing team, state-of the-art greenhouses and innovative agricultural practices, Revol Greens is paving the way to a more sustainable future.  "
   }
 ]
